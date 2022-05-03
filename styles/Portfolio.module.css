@@ -1,0 +1,10 @@
+.portfolio {
+  display: grid;
+  grid-template-columns:repeat(auto-fill, minmax(30rem,1fr));
+  gap: 2rem;
+}
+/* @media (max-width:480px) {
+  .portfolio {
+    grid-template-columns: 1fr;
+  }
+} */

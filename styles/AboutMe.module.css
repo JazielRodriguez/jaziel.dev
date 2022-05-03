@@ -1,0 +1,28 @@
+.digital-garden {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+}
+.digital-garden div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6rem;
+}
+.digital-garden div a {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+.my-things {
+  margin-top: 2.4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.my-things li {
+  padding: 0 2rem;
+  font-size: 1.8rem;
+}

@@ -1,0 +1,10 @@
+.description {
+  margin: 2rem 0;
+}
+.description h1 {
+  text-align: center;
+}
+.description p {
+  color: var(--desc-pages);
+  text-align: center;
+}

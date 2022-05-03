@@ -1,0 +1,38 @@
+.header {
+  padding: 2rem 0;
+  background-color: var(--secondary);
+  color: #eee;
+}
+.header-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:4rem;
+  overflow: auto;
+}
+.header-content a {
+  padding: 1.5rem 2rem;
+}
+.header-content a {
+  text-align: center;
+  position: relative;
+  transition: all .35s;
+}
+.header-content a:after{
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: var(--secondaryHover);
+  transition: all .35s;
+  border-radius: 1rem;
+}
+.header-content a span {
+  position: relative;
+  z-index: 2;
+}
+.header-content a:hover:after{
+  width: 100%;
+}

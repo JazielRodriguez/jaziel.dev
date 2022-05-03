@@ -1,0 +1,8 @@
+.me {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 4rem;
+  margin: 3rem 0;
+}

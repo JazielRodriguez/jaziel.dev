@@ -1,0 +1,10 @@
+.card {
+  padding: 1rem;
+  border-radius: 6px;
+}
+.card:hover {
+  background-color: #eee;
+}
+.card h3 {
+  text-align: center;
+}
