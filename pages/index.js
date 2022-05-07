@@ -2,6 +2,7 @@ import Head from "next/head";
 import Header from "../components/Header";
 import Me from "../components/Me";
 import Footer from "../components/Footer";
+import Hero from "../components/Hero";
 export default function Home() {
   return (
     <>
@@ -12,6 +13,7 @@ export default function Home() {
           content="Jaziel Rodriguez, Desarrollador FrontEnd con React.Js"
         />
       </Head>
+      <Hero />
       <Header />
       <Me />
       <Footer />

@@ -6,8 +6,6 @@ export default function Header() {
     { href: "/", label: "Inicio" },
     { href: "/about-me", label: "Acerca de Mí" },
     { href: "/portfolio", label: "Portafolio" },
-    // { href: "/blog", label: "Blog" },
-    //    { href: "/contact", label: "Contacto" },
   ];
   return (
     <header className={styles.header}>
