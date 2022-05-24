@@ -13,7 +13,7 @@ export default function Home() {
           content="Jaziel Rodriguez, Desarrollador FrontEnd con React.Js"
         />
       </Head>
-      <Hero />
+      {/* <Hero /> */}
       <Header />
       <Me />
       <Footer />
