@@ -1,3 +1,4 @@
+import Head from 'next/head'
 import Header from "../components/Header";
 import Description from "../components/Description";
 import Footer from "../components/Footer";
@@ -6,7 +7,7 @@ import styles from "../styles/Portfolio.module.css";
 import wordle from "../public/images/wordle.png";
 import photoGallery from "../public/images/photo-gallery.png";
 import yourHotels from "../public/images/your-hotels.png";
-import yourShop from '../public/images/fake-shop.png'
+import yourShop from "../public/images/fake-shop.png";
 import ProjectCard from "../components/ProjectCard";
 export default function Portfolio() {
   const projects = [
@@ -33,6 +34,13 @@ export default function Portfolio() {
   ];
   return (
     <>
+      <Head>
+        <title>Jaziel Rodriguez | Portfolio</title>
+        <meta
+          name="description"
+          content="Jaziel Rodriguez, Desarrollador FrontEnd con React.Js"
+        />
+      </Head>
       <Header />
       <Description portfolio />
       <Container>

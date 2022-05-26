@@ -1,3 +1,4 @@
+import Head from 'next/head'
 import Header from "../components/Header";
 import Container from "../components/Container";
 import Description from "../components/Description";
@@ -9,6 +10,13 @@ import Icon from "@mdi/react";
 export default function AboutMe() {
   return (
     <>
+      <Head>
+        <title>Jaziel Rodriguez | Acerca de mí</title>
+        <meta
+          name="description"
+          content="Jaziel Rodriguez, Desarrollador FrontEnd con React.Js"
+        />
+      </Head>
       <Header />
       <Description aboutMe />
       <Container>
