@@ -7,6 +7,7 @@ import styles from "../styles/Portfolio.module.css";
 import wordle from "../public/images/wordle.png";
 import photoGallery from "../public/images/photo-gallery.png";
 import yourHotels from "../public/images/your-hotels.png";
+import yourFood from '../public/images/your-food.png'
 import yourShop from "../public/images/fake-shop.png";
 import ProjectCard from "../components/ProjectCard";
 export default function Portfolio() {
@@ -31,6 +32,11 @@ export default function Portfolio() {
       img: yourShop,
       link: "https://your-shop-jaz.netlify.app/",
     },
+    {
+      title:'Your Food',
+      img:yourFood,
+      link:'https://your-food.netlify.app'
+    }
   ];
   return (
     <>
