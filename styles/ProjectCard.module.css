@@ -8,3 +8,15 @@
 .card h3 {
   text-align: center;
 }
+.actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.actions a {
+  padding: 1rem;
+  background-color: #eee;
+}
+.actions a:hover {
+  background-color: #fff;
+}

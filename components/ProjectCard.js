@@ -1,4 +1,4 @@
-import styles from '../styles/ProjectCard.module.css'
+import styles from "../styles/ProjectCard.module.css";
 import Image from "next/image";
 // const ProjectCard = ({ project }) => {
 //   return (
@@ -10,12 +10,21 @@ import Image from "next/image";
 // };
 // export default ProjectCard;
 
-const ProjectCard = ({project}) => {
+const ProjectCard = ({ project }) => {
   return (
-    <a target="_blank" rel="noreferrer" href={project.link} className={styles.card}>
+    <div className={styles.card}>
       <h3>{project.title}</h3>
       <Image src={project.img} alt={project.title} objectFit="cover" />
-    </a>
-  )
-}
-export default ProjectCard
+
+      <div className={styles.actions}>
+        <a target="_blank" rel="noreferrer" href={project.link}>
+          DEMO
+        </a>
+        <a target="_blank" rel="noreferrer" href={project.git}>
+          REPO
+        </a>
+      </div>
+    </div>
+  );
+};
+export default ProjectCard;
